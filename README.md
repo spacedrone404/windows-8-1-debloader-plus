@@ -160,7 +160,9 @@ But there is a slim chance that somebody will find it useful too. Aimed for desk
 - Windows Defender Service (WinDefend)
 - Windows Search (WSearch)
 
-<font color="green" size="6" face="amiga_topaz_unicode_rusRg">RUNNING AND HAVE AUTO START-UP STATUS</font>
+```diff
++ RUNNING AND HAVE AUTO START-UP STATUS
+```
 
 - Background Tasks Infrastructure Service (BrokerInfrastructure)
 - COM+ Event System (EventSystem)
@@ -194,19 +196,25 @@ But there is a slim chance that somebody will find it useful too. Aimed for desk
 - Windows Font Cache Service (FontCache)
 - Windows Management Instrumentation (Winmgmt)
 
-<font color="orange" size="6" face="amiga_topaz_unicode_rusRg">RUNNING AND HAVE MANUAL START-UP STATUS</font>
+```diff
++ RUNNING AND HAVE MANUAL START-UP STATUS
+```
 
 - Base Filtering Engine (BFE)
 - Device Install Service (DeviceInstall)
 - Device Setup Manager (DsmSvc)
 - Program Compatibility Assistant Service (PcaSvc)
 
-<font color="yellow" size="6" face="amiga_topaz_unicode_rusRg" >STOPPED AND HAVE AUTO START-UP STATUS</font>
+```diff
+- STOPPED AND HAVE AUTO START-UP STATUS
+```
 
 - Software Protection (sppsvc)
 - Windows Event Log (EventLog)
 
-<font color="yellow" size="6" face="amiga_topaz_unicode_rusRg">STOPPED AND HAVE MANUAL START-UP STATUS</font>
+```diff
+- STOPPED AND HAVE MANUAL START-UP STATUS
+```
 
 - App Readiness (AppReadiness)
 - Application Experience (AeLookupSvc)
