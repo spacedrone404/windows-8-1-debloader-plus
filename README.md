@@ -27,7 +27,9 @@ But there is a slim chance that somebody will find it useful too. Aimed for desk
 + In the end of the day we are only surfing the WEB and do audio and GFX.
 ```
 
-<font color="red" size="6" face="amiga_topaz_unicode_rusRg">STOPPED AND DISABLED SERIVES SORTED BY CATEGORY</font>
+```diff
+- STOPPED AND DISABLED SERIVES SORTED BY CATEGORY
+```
 
 **REMOTE**
 
