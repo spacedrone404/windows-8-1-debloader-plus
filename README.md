@@ -1,4 +1,8 @@
-> This is ALPHA! Report bugs and suggestions in Issues tab.
+> This is ALPHA! Report bugs and suggestions in the Issues tab.
+
+Windows 7 Premium Assurance is coming to an end in January 2026, so i'm considering Windows 8.1 migration.
+<br>
+That is why i have decided to make an ultimate debloating script for Windows 8.1, which will be supported until October 2026.
 
 Ok, some preface words to clean things up a bit. I've done this configuration for my personal specific needs.
 <br>
