@@ -8,8 +8,27 @@ Ok, some preface words to clean things up a bit. I've done this configuration fo
 <br>
 But there is a slim chance that somebody will find it useful too. Aimed for desktop and laptops, not tablets.
 
+
+Script is based upon Windows 8.1 Debloater: https://github.com/teeotsa/windows-8-debloat
+
+Original functionality:
+- disable some of the bloat services
+- disable telemetry, scheduled crap tasks and Defender
+- disable autologger
+
+Compiled by TrackerNinja aka spacedrone808:
+https://trackerninja.codeberg.page
+
+What's new:
+- implemented substantially more comprehensive services management 
+- high risk infection SMB1 is disabled to minimize attack vector 
+- AppX Metro packages removed [because i don't like them]
+- applied some tweaks here and there
+- added probably unneeded GUI niceties
+
+
 ```diff
-- So what we are not doing:
+- SO WHAT WE ARE NOT DOING:
 ```
 - No Prefech since we are on NVME
 - No WiFi, Bluetooth or any wireless connection
@@ -24,7 +43,7 @@ But there is a slim chance that somebody will find it useful too. Aimed for desk
 - Only one user, no secondary logon
 
 ```diff
-+ In the end of the day we are only surfing the WEB and do audio and GFX.
++ IN THE END OF THE DAY WE ARE ONLY SURFING THE WEB AND DO AUDIO AND GFX.
 ```
 
 ```diff
