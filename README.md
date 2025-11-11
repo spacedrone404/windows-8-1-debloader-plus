@@ -240,7 +240,3 @@ But there is a slim chance that somebody will find it useful too. Aimed for desk
 - Windows Presentation Foundation Font Cache 3.0.0.0 (FontCache3.0.0.0)
 - Windows Time (W32Time)
 - Wired AutoConfig (dot3svc)
-
-<div align="center">
-<font color="yellow" size="6" face="amiga_topaz_unicode_rusRg">SOURCE CODE OF THE SCRIPT</font>
-</div>
