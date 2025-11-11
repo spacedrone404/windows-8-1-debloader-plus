@@ -8,8 +8,9 @@ Ok, some preface words to clean things up a bit. I've done this configuration fo
 <br>
 But there is a slim chance that somebody will find it useful too. Aimed for desktop and laptops, not tablets.
 
-<font color="red">So what we are not doing:</font>
-
+```diff
+- So what we are not doing:
+```
 - No Prefech since we are on NVME
 - No WiFi, Bluetooth or any wireless connection
 - No GPS location services
