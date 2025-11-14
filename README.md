@@ -92,6 +92,9 @@ Do not forget to set script restriction back to restore security settings.
 Set-ExecutionPolicy Restricted -Scope CurrentUser
 ```
 
+![demo-1](https://trackerninja.codeberg.page/img/win81debloat/demo-1.png)
+![demo-2](https://trackerninja.codeberg.page/img/win81debloat/demo-2.png)
+
 ```diff
 - STOPPED AND DISABLED SERIVES SORTED BY CATEGORY
 ```
