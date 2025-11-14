@@ -61,6 +61,7 @@ if ($result -ne [System.Windows.Forms.DialogResult]::Yes) {
 
 
 Write-Host "Starting to dump bloat services...`n" -ForegroundColor Green
+Write-Host "This may take some time, so hold your horses...`n" -ForegroundColor Yellow
 
 # Services to disable and stop
 $disabledServices = @(
@@ -176,7 +177,7 @@ Wait-Job -Id $Job.Id | Out-Null
 Write-Host "Windows Error Reporting is disabled!`n" -ForegroundColor Green
 
 # Disable Scheduled Tasks
-Write-Host 'Disabling Scheduled Tasks...'
+Write-Host 'Disabling Bloated Scheduled Tasks...'
 $Job = Start-Job -ScriptBlock {
     $Paths = @(
         '\Microsoft\Windows\.NET Framework'
@@ -338,7 +339,7 @@ Wait-Job -Id $Job.Id | Out-Null
 Write-Host "Windows Defender is ditched!`n" -ForegroundColor Green
 
 # Disable Logs
-Write-Host 'Disabling Logging...'
+Write-Host 'Disabling uneeded System Logging...'
 $Job = Start-Job -ScriptBlock {
     Get-ChildItem -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\WMI\Autologger' | %{
         $Name = $_.Name.Replace('HKEY_LOCAL_MACHINE','HKLM:')
@@ -449,4 +450,3 @@ Write-Host "System is tweaked, press OK to reboot`n" -ForegroundColor Red
 
 # Restart computer
 Restart-Computer -Force
-

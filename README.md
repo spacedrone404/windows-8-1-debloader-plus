@@ -50,6 +50,48 @@ What's new:
 + IN THE END OF THE DAY WE ARE ONLY SURFING THE WEB AND DO AUDIO AND GFX.
 ```
 
+By default script execution is disabled on Windows systems.
+Check this out by entering in PowerShell console with administrative rights:
+
+```
+Get-ExecutionPolicy
+```
+
+To remove this restriction type:
+
+```
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+```
+
+If for some reason this doesn't work you can do it by means of Group Policy editor:
+
+```
+gpedit.msc
+
+```
+
+```
+Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell > Turn on Script Execution
+```
+
+Then enter from administrative command prompt or PowerShell console:
+
+```
+gpupdate
+```
+
+To run script open admin elevated PowerShell console, head to appropriate folder and enter:
+
+```
+./debloat81.ps1
+```
+
+Do not forget to set script restriction back to restore security settings.
+
+```
+Set-ExecutionPolicy Restricted -Scope CurrentUser
+```
+
 ```diff
 - STOPPED AND DISABLED SERIVES SORTED BY CATEGORY
 ```
