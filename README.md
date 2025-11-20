@@ -1,5 +1,7 @@
 > This is ALPHA! Report bugs and suggestions in the Issues tab.
 
+﻿# DEBLOATER FOR WINDOWS 8.X
+ 
 Windows 7 Premium Assurance is coming to an end in January 2026, so i'm considering Windows 8.1 migration.
 <br>
 That is why i have decided to make an ultimate debloating script for Windows 8.1, which will be supported until October 2026.
