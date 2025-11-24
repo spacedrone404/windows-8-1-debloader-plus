@@ -1,6 +1,6 @@
 # DEBLOATER FOR WINDOWS 8.X
 
-> This is ALPHA! Report bugs and suggestions in the Issues tab.
+> This is BETA! Report bugs and suggestions in the Issues tab.
 
  
 Windows 7 Premium Assurance is coming to an end in January 2026, so i'm considering Windows 8.1 migration.
